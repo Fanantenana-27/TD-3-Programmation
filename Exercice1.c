@@ -14,7 +14,7 @@ Début
         FinSi 
         Écrire("Entrez la taille du tableau :");
         Lire(n);
-    TantQue (n<1 || n>N); 
+    TantQue (n<1 OU n>N); 
     Pour (i<-0;i<n;i<-i+1)  
         Écrire("Entrez un nombre entier n ");
         Lire(T[i]);
