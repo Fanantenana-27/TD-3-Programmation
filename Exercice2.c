@@ -14,7 +14,7 @@ Début
         FinSi
         Ecrire("Entrez la Taille du tableau :");
         Lire(n); 
-    TantQue (n<1 || n>N);
+    TantQue (n<1 OU n>N);
     Pour (i<-0;i<n;i<-i+1)
         Ecrire("Entrez l'element du tableau: ");
         Lire(T[i]);
